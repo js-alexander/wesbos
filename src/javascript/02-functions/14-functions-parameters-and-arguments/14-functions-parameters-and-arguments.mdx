@@ -222,7 +222,7 @@ Run the code as is, even though it will break, to see why. In the console you sh
 
 ![sayHiTo function throws not defined error as firstName is not defined anywhere](/firstName-is-not-defined-error-in-console.png)
 
-What happens is this function, first it looks inside of its own function scope, and it will look for a variable `firstName` that has been passed in. If there is not, it will start to do is go up to a high level of scope and look there.
+What happens in this function is first it looks inside of its own function scope, and it will look for a variable `firstName` that has been passed in. If it's not there what it will start to do is go up to a higher level of scope and look there.
 
 Let's say there was a firstName variable like so 👇
 
